@@ -89,7 +89,7 @@ const addPagination = (list) => {
          }
          e.target.classList.add('active')
          const pageIndex = e.target.textContent;
-         showPage(data, pageIndex)
+         showPage(list, pageIndex)
       }
    })
 }
