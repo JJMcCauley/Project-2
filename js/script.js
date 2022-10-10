@@ -94,6 +94,11 @@ const addPagination = (list) => {
    })
 }
 
+/**
+ * Shows students whose name contains the searched for string, shows a message if no named match
+ *
+ * @param {string} value String to search through the names in the data array for
+ */
 
 let zeroResultsDisplay = false;
 const searchStudents = (value) => {
